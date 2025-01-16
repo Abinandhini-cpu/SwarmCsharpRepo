@@ -1,0 +1,66 @@
+:root {
+    /* Core colors */
+    --background: #1a1a1a;
+    --background-soft: #2a2a2a;
+    --background-gray: #333333;
+    --background-gray-danger: #b22222;
+    --background-danger: #ff4c4c;
+    --shadow: rgba(0, 0, 0, 0.7);
+    --light-border: #444444;
+    
+    /* Text colors */
+    --text: #e0e0e0;
+    --text-soft: #b0b0b0;
+    --popup-front: #ffffff;
+    
+    /* UI Elements */
+    --emphasis: #00ffcc;
+    --emphasis-soft: #66ffe0;
+    --emphasis-text: #ffffff;
+    --border-color: #444444;
+    
+    /* Buttons */
+    --button-text: #ffffff;
+    --button-background: #333333;
+    --button-background-hover: #444444;
+    --button-foreground-hover: #00ffcc;
+    --button-foreground-disabled: #666666;
+    --button-background-disabled: #333333;
+    --button-border: #444444;
+    
+    /* Danger buttons */
+    --danger-button-background-hover: color-mix(in srgb, #ff4c4c 70%, black);
+    --danger-button-foreground-hover: #ffffff;
+    --danger-button-border: #ff4c4c;
+    --danger-button-foreground: #ffffff;
+    --danger-button-background: #b22222;
+    
+    /* Panels and backgrounds */
+    --background-panel: #2a2a2a;
+    --background-panel-subtle: rgba(0, 255, 204, 0.1);
+    
+    /* Input elements */
+    --range-track-color: #444444;
+    --range-thumb-color: #00ffcc;
+    
+    /* Other UI elements */
+    --qbutton: var(--emphasis);
+    --batch-0: rgba(0, 255, 204, 0.3);
+    --batch-1: rgba(0, 200, 150, 0.3);
+    --popup-back: var(--background);
+    
+    /* Selection colors */
+    --box-selected-border: rgba(0, 255, 204, 0.8);
+    --box-selected-background: rgba(0, 255, 204, 0.2);
+    --box-selected-border-stronger: rgba(0, 255, 204, 1.0);
+    --box-selected-background-stronger: rgba(0, 255, 204, 0.3);
+    
+    /* Standard colors */
+    --red: #ff4c4c;
+    --green: #4caf50;
+    
+    /* Shadow variables */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.7);
+}
