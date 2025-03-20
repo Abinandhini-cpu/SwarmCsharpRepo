@@ -285,7 +285,7 @@ public class SessionHandler
         userId = Utilities.StrictFilenameClean(userId).Replace("/", "");
         if (userId.Length == 0)
         {
-            userId = "_";
+            
         }
         if (Users.TryGetValue(userId, out User user))
         {
