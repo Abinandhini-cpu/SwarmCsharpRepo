@@ -117,7 +117,7 @@ public enum PermissionDefault
     /// <summary>Only advanced/trusted power users and admins should have this by default, not regular users.</summary>
     POWERUSERS = 2,
     /// <summary>Any registered user can have this by default, it's safe and only permission walled to allow the server owner to disable it.</summary>
-    USER = 1,
+    
     /// <summary>An unregistered guest user can use this (if unregistered access is enabled), it's extremely safe.</summary>
     GUEST = 4
 }
