@@ -116,7 +116,7 @@ public static class BasicAPIFeatures
 
     [API.APIDescription("User route to get the user's own base data.",
         """
-            "user_name": "username",
+            
             "presets": [
                 {
                     "author": "username",
